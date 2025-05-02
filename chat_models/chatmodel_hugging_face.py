@@ -11,7 +11,7 @@ task="text-generation",
 )  
 chat = ChatHuggingFace(llm=llm)
 
-result = chat.invoke("what is the capital of  india ")
+result = chat.invoke("what is the capital of pakistan")
 
 print(result.content)
 
